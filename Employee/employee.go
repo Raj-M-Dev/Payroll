@@ -5,5 +5,10 @@ type employee struct {
 	Age int
 	Gender string
 	Salary float64
-	Role String
+	Role role
+}
+
+type role struct {
+	id string
+	name string
 }
