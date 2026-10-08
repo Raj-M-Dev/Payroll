@@ -1,14 +1,13 @@
-package Employee
+package main
 
-type employee struct {
-	Name String
-	Age int
-	Gender string
-	Salary float64
-	Role role
+type Employee struct {
+	name   string
+	age    int
+	gender string
+	role   Role
 }
 
-type role struct {
-	id string
+type Role struct {
+	id   string
 	name string
 }
