@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Employee struct {
 	name   string
@@ -8,7 +10,12 @@ type Employee struct {
 	gender string
 	role   Role
 }
-
+type EmployeIN interface {
+	addEmployee() error
+	getEmployee() error
+	editEmployee() error
+	deleteEmployee() error
+}
 type Role struct {
 	id   string
 	name string
