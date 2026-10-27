@@ -1,13 +1,13 @@
-package employee
+package Model
 
 type Employee struct {
-	name   string
-	age    int
-	gender string
-	role   Role
+	Name   string
+	Age    int
+	Gender string
+	Role   Role
 }
 
 type Role struct {
-	id   string
-	name string
+	Id   string
+	Name string
 }
