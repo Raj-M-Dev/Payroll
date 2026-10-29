@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"paySlip/model"
+	model "paySlip/model"
 )
 
 type EmployeIN interface {
@@ -13,7 +13,7 @@ type EmployeIN interface {
 }
 
 func main() {
-	model.Employee{}
+
 	emp := model.Employee{}
 	err := addEmployee(&emp)
 	if err != nil {
