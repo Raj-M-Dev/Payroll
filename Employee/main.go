@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	model "paySlip/model"
+
+	"github.com/gin-gonic/gin"
 )
 
 type EmployeIN interface {
@@ -13,7 +15,8 @@ type EmployeIN interface {
 }
 
 func main() {
-
+	server := gin.Default()
+	server.Run("8080")
 	emp := model.Employee{}
 	err := addEmployee(&emp)
 	if err != nil {
