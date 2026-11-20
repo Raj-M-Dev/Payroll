@@ -60,6 +60,8 @@ github.com/ugorji/go/codec v1.3.2 h1:zkEASHHyEClGeURfgNT9PJZVfAbs9oEX9QXggwWNJbc
 github.com/ugorji/go/codec v1.3.2/go.mod h1:pRBVtBSKl77K30Bv8R2P+cLSGaTtex6fsA2Wjqmfxj4=
 go.mongodb.org/mongo-driver/v2 v2.10.0 h1:BYJLuVSu3/xDvToG+VQyoTPS+jxq9tuQDf+1nAlFKSE=
 go.mongodb.org/mongo-driver/v2 v2.10.0/go.mod h1:PxPyIAlsI1jkYZvUNfTr++ggyBP+RSaxHYctt6TcZc4=
+go.mongodb.org/mongo-driver/v2 v2.10.1 h1:FScYVU+0h/zERnvYemJix3ZDgeU2QGmC8EuXLSWLdf8=
+go.mongodb.org/mongo-driver/v2 v2.10.1/go.mod h1:PxPyIAlsI1jkYZvUNfTr++ggyBP+RSaxHYctt6TcZc4=
 golang.org/x/arch v0.33.0 h1:Xhs4e8nHj/CU/eFFMok2wQG3amA8430Sjdobboa4NrM=
 golang.org/x/arch v0.33.0/go.mod h1:yelN722/RE0EdL5KBgAqvVqP++p/dn8sL4UaLD8n8As=
 golang.org/x/crypto v0.59.0 h1:xS2jhqYbzNrpvkWP2YTDf4TJwBy3ykR03i8vFDxEc7c=
